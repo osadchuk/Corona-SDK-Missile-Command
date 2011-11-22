@@ -163,11 +163,11 @@ function Game.new()
 		local explosion = Explosion.new("missile", missile.x, missile.y)
 		game:insert(explosion)
 		missile:destroy()
-		bomb:destroy
+		bomb:destroy()
 	end
 	
 	function explosionHit(bomb, explosion)
-		bomb:destroy
+		bomb:destroy()
 	end
 	
 	function calculateScore(bombY)

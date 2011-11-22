@@ -153,7 +153,7 @@ function Game.new()
 	
 	function missileHit(bomb, missile)
 		missile:destroy()
-		bomb:destroy
+		bomb:destroy()
 	end
 	
 	function calculateScore(bombY)
